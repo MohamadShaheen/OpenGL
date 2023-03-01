@@ -54,16 +54,17 @@
         0.25f, -0.5f, 0.0f, // bottom left
         0.25f,  0.5f, 0.0f, // top left
     };
+    
     unsigned int indices[] =
-    {  // note that we start from 0!
+    {
         0, 1, 3, // First triangle
         1, 2, 3, // Second triangle
 
-        4, 5, 7, // third triangle
-        5, 6, 7, // fourth triangle
+        4, 5, 7, // Third triangle
+        5, 6, 7, // Fourth triangle
 
-        8, 9, 11, // fifth triangle
-        9, 10, 11 // sixth triangle
+        8, 9, 11, // Fifth triangle
+        9, 10, 11 // Sixth triangle
     };
 ```
 
